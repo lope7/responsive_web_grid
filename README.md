@@ -1,1 +1,1 @@
-# responvie_web_grid
+# Basic responsive web example using GRID and SASS
