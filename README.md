@@ -1,6 +1,6 @@
 # Images gallery responsive
 
 # Technologies
-SASS
-Grid
-Media Querie
+* SASS
+* Grid
+* Media querie
