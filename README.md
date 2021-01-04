@@ -1,6 +1,6 @@
 # Images gallery responsive
 
-<h3>Technologies</h3>
+Technologies
 * SASS
 * Grid
 * Media querie
