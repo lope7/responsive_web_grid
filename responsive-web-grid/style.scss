@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background: linear-gradient(45deg, #0abfbc, #fc354c);
+    background-size: 500% 500%;	
+    animation: Gradient 10s ease infinite;
+    font-family: 'fuente';
+  }
+  @font-face{
+      font-family:fuente;
+      src: url('font/Robota.otf') format("opentype");                  
+  }
+  h1{
+      text-align: center;
+      margin-top: 2vh;
+  }
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 8vh;
+    .element1{
+        background-image: url("images/img1.jpg");
+        background-size: cover;
+        height: 50vh;
+    }
+    .element2{
+        background-image: url("images/img2.jpg");
+        background-size: cover;
+        height: 50vh;
+        gap: 1vh;
+    }
+    .element3{
+        background-image: url("images/img3.jpg");
+        background-size: cover;
+        height: 50vh;
+    }
+    .element4{
+        background-image: url("images/img4.jpg");
+        background-size: cover;
+        height: 50vh;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    h1{
+        display: none;
+    }
+    .container{
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+
+        .element1{
+        grid-column: 1/1;
+        grid-row: 1/1;
+        }
+
+        .element2{
+         grid-column: 1/1;
+         grid-row: 2/2;
+
+        }
+
+        .element3{
+        grid-column: 1/1;
+        grid-row: 3/3;
+        }
+
+        .element4{
+        grid-column: 1/1; 
+        grid-row: 4/4;
+        }
+    }
+    body{
+        background:black;
+      }
+
+}
