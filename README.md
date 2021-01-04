@@ -1,1 +1,6 @@
-# Basic responsive web example using GRID and SASS
+# Images gallery responsive
+
+# Technologies
+SASS
+Grid
+Media Querie
